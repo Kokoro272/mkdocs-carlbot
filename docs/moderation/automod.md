@@ -110,18 +110,6 @@
 		| **invitespam off** | !invitespam off | Off means it only punishes blacklisted links. |
 		| **invitespam norole** | !invitespam norole | Same as setting it to 'on' except it only affects members without roles. |
 		
-	=== "Bad Words"
-		Bad Words detection is case insensitive, looks for substrings, and ignores punctuation. Censoring "ass" would cause Carl-bot to punish any user that said "class".
-		
-		| Name | Example | Usage |
-		| :--- | :--- | :--- |
-		| **censor &lt;words...&gt;** | !censor dick | Adds one or more words to the list of blacklisted words |
-		| **censor add &lt;words...&gt;** | !censor add dick | Same as above |
-		| **censor remove &lt;words...&gt;** | !censor remove dick | Removes a word from the blacklist |
-		| **censor list** | !censor list | Lists all censored words |
-		| **censor clear** | !censor clear | Clears all censored words |
-		| **censor punish &lt;punishments...&gt;** | !censor p mute, delete, defer |  Sets up punishments for the words. Defaults to delete and defer |
-		
 	=== "Caps Limit"
 	
 		| Name | Example | Usage |
